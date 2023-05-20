@@ -16,12 +16,12 @@ export default function App() {
     authorizationEndpoint: 'https://github.com/login/oauth/authorize',
     tokenEndpoint: 'https://github.com/login/oauth/access_token',
     revocationEndpoint:
-      'https://github.com/settings/connections/applications/84579a89a534e52d2015',
+      'https://github.com/settings/connections/applications/84579a89a534e52d2010',
   }
-
+  // five
   const [, response, signInWithGithub] = useAuthRequest(
     {
-      clientId: '84579a89a534e52d2015',
+      clientId: '84579a89a534e52d2010',
       scopes: ['identity'],
       redirectUri: makeRedirectUri({
         scheme: 'nlwspacetime',
